@@ -493,6 +493,17 @@ body {
   margin-bottom: 115px;
 }
 
+.introducing__container {
+  position: relative;
+}
+
+.introducing__container img {
+  position: absolute;
+  top: 0;
+  left: 29%;
+  z-index: -1;
+}
+
 .introducing__container_bg {
   padding-top: 68px;
   padding-bottom: 75px;
@@ -501,9 +512,6 @@ body {
 .introducing__label {
   margin-bottom: 8px;
 }
-
-._no-webp .introducing__find-space{
-  background: url("../img/introducing.jpg") no-repeat 100% 0; }
 
 .text-introducing {
   display: -webkit-box;
@@ -1992,6 +2000,10 @@ body {
     padding-top: 70px;
   }
 
+  .introducing__container img {
+    left: 0;
+  }
+
   .text-introducing {
     display: block;
   }
@@ -2462,5 +2474,3 @@ body {
     margin-bottom: 10px;
   }
 }
-
-._webp .introducing__find-space{ background: url(../img/introducing.webp) no-repeat 100% 0; }
